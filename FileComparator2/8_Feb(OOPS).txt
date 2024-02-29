@@ -1,0 +1,25 @@
+Design and implement a Java application for a Library Management System that demonstrates the core concepts of Object-Oriented Programming (OOP): encapsulation, inheritance, polymorphism, and abstraction. Your application should meet the following requirements:Scenario:
+You are tasked with developing a software system for managing a library's book inventory and the borrowing process. The system should allow for adding new books to the inventory, checking out books to library members, and returning books. It should also keep track of all books, borrowers, and transactions.Requirements:
+Encapsulation: Ensure that the classes encapsulate their data with private fields and provide public methods to manipulate the data (e.g., getters and setters).
+Inheritance: Create a base class named Item that contains properties common to all items in the library (such as title, author, and unique identifier). Then, derive at least two types of items from this class (e.g., Book and Magazine) that have specific properties and methods.
+Polymorphism: Implement a method that displays item details. This method should be overridden in each derived class to include additional details specific to the item type.
+Abstraction: Define an interface or abstract class for operations that can be performed in the library, such as CheckOutable with methods for checking items in and out. Ensure that classes implementing this interface provide concrete implementations of these methods.
+Detailed Description:
+
+
+Class Design:
+Item: An abstract class with common properties like id, title, and author. Include a method to display item details.
+Book and Magazine: Classes that inherit from Item and add specific properties (e.g., ISBN for books, issue number for magazines).
+LibraryMember: A class representing a member of the library, with properties like memberId, name, and methods to check out and return items.
+Library: A class to manage library operations, such as adding new items to the inventory, registering members, and handling check-outs and returns.
+Functionality:
+Adding new items to the library's inventory.
+Registering new library members.
+Checking out and returning items.
+Displaying the details of an item and the current status (checked out/in).
+Task:
+Implement the system described above. Make sure to demonstrate the use of all OOP concepts. Pay attention to class relationships and design patterns that could enhance your solution. Your implementation should include a main class where you create instances of library items, add them to the inventory, and simulate checking out and returning items.Evaluation Criteria:
+Correct application of OOP concepts.
+Code readability and organization.
+Implementation of class relationships and methods.
+This question challenges students to apply OOP concepts in a real-world scenario, encouraging thoughtful design and consideration of how objects interact within a system.

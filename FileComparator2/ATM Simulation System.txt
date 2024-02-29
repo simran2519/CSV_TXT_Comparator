@@ -1,0 +1,33 @@
+ATM Simulation System
+
+Objective:
+The objective of this project is to develop an ATM Simulation System in Java that simulates the basic functionalities of an Automated Teller Machine (ATM). The system should provide a user-friendly interface for customers to perform common banking operations such as withdrawals, deposits, balance inquiries, and account transfers.
+
+
+User Interface:
+Develop a user-friendly console-based interface for customers to interact with the ATM system.
+Display appropriate messages and options for users at each step of the transaction.
+
+User Varification:
+Users should be able to log in using a unique identifier (e.g., Card Number) and a confidential Personal Identification Number (PIN).
+Implement security measures to prevent unauthorized access.
+
+Account Operations:
+Balance Inquiry: Users should be able to check their account balance.
+Cash Withdrawal: Users should be able to withdraw a specified amount of money from their account.
+Cash Deposit: Users should be able to deposit a specified amount of money into their account.
+
+Account Transfers:
+Users should be able to transfer money between their own accounts or to another account within the bank.
+
+Error Handling:
+Implement robust error handling to address scenarios such as insufficient funds, incorrect PIN, invalid account numbers, etc.
+
+Security:
+Ensure that sensitive information (e.g., PIN, account balances) is stored securely.
+Implement measures to protect against unauthorized access and fraudulent activities.
+
+Documentation:
+Include clear and concise documentation for the code, including comments for better understanding.
+Provide a user manual explaining how to use the ATM Simulation System.
+
